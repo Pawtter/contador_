@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
-import 'dart:convert';
+//import 'dart:convert';
 
 class Operacoes {
-  String Adicao(int a) {
+  int Adicao(int a) {
     a++;
 
-    return a.toString();
+    return a;
+  }
+
+  int subtracao(int a) {
+    a--;
+
+    return a;
   }
 }
