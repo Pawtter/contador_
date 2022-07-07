@@ -8,9 +8,9 @@ class Operacoes {
     return a;
   }
 
-  int subtracao(int a) {
-    a--;
+  int Subtracao(int b) {
+    b--;
 
-    return a;
+    return b;
   }
 }
